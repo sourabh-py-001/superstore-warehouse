@@ -32,24 +32,33 @@ Git & GitHub — Version control
 -------------------------------------------------------------------------------------------------------------
 📊 SQL Analytics Queries
 
--->
-Top 10 customers by total revenue
-Profit margin percentage by category
-Monthly sales trend year wise
-Top 10 states by total sales
-Loss making products with negative total profit is negative
-Total orders per year
-Which ship mode is used most  
-Most used ship mode
-Sub-category with highest quantity sold
 
--->
-Month over month revenue growth using LAG()
-Best performing category per region using DENSE_RANK() with PARTITION BY
-Running total of sales within each year using SUM() OVER()
-Top 3 customers per segment using ROW_NUMBER() with PARTITION BY
-Rank products by profit within each category using RANK() with PARTITION BY
-Products with above average profit using subquery
+- Top 10 customers by total revenue
+
+- Profit margin percentage by category
+
+- Monthly sales trend year wise
+
+- Top 10 states by total sales
+
+- Loss making products with negative total profit
+
+- Total orders per year
+
+- Most used ship mode
+
+- Sub-category with highest quantity sold
+
+- Month over month revenue growth using LAG()
+
+- Best performing category per region using DENSE_RANK() with PARTITION BY
+
+- Running total of sales within each year using SUM() OVER()
+
+- Top 3 customers per segment using ROW_NUMBER() with PARTITION BY
+
+- Rank products by profit within each category using RANK() with PARTITION BY
+
 
 -------------------------------------------------------------------------------------------------------------
 
